@@ -15,7 +15,7 @@ const Page = () => {
 	<Layout>
 		<Container>
 			<Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-				Hello, I'm a full-stack developer based in Denver, Colorado!
+				Hello, I'm a full-stack developer based in Denver, Colorado! This site is still in active development, and as such, may be imcomplete.
 			</Box>
 
 			<Box display={{md:'flex'}}>
@@ -81,11 +81,6 @@ const Page = () => {
 					</ListItem>
 				</List>
 
-				<SimpleGrid columns={[1,2,2]} gap={6}>
-					<GridItem href="https://www.youtube.com/JustinReidy" title="Justin Reidy On YT" thumbnail={placeholderCat}>
-
-					</GridItem>
-				</SimpleGrid>
 			</Section>
 		</Container>
 	</Layout>

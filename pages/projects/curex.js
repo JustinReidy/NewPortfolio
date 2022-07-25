@@ -15,23 +15,29 @@ const Work = () => {
             A simple application that allows a user to compare the current exchange rates of various currencies, and view a historical graph of the fluxuations of two currencies
             </P>
             <List ml={4} my={4}>
-                <ListItem>
+                {/* <ListItem>
                     <Meta>Website</Meta>
                         <Link href="https://www.inkdrop.app/">
                             https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
                         </Link>
-                </ListItem>
-                <ListItem>
-                    <Meta>Platform</Meta>
+                </ListItem> */}
+                {/* <ListItem> */}
+                    {/* <Meta>Platform</Meta>
                     <span>Windows/macOS/Linux/iOS/Andriod</span>
-                </ListItem>
+                </ListItem> */}
                 <ListItem>
                     <Meta>Stack</Meta>
-                    <span>NodeJS, Electron, React Native</span>
+                    <span>NodeJS, React, Express, TailwindCSS</span>
+                </ListItem>
+                <ListItem>
+                    <Meta>Github</Meta>
+                    <Link href="https://github.com/JustinReidy/vschool-assignments/tree/master/projects/curex">
+                        Repo
+                    </Link>
                 </ListItem>
             </List>
 
-            <WorkImage src="/images/placeholder_cat.jpg" alt="Placeholder Cat"/>
+            {/* <WorkImage src="/images/placeholder_cat.jpg" alt="Placeholder Cat"/> */}
             </Container>
         </Layout>
     )
